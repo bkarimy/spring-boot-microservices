@@ -1,10 +1,18 @@
 package com.example.OrderService;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.Getter;
+
 import javax.persistence.*;
 
+@Getter
 @Entity
 public class Order {
 
+    // Standard getters and setters
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -12,25 +20,12 @@ public class Order {
     private String bookTitle;
     private Integer quantity;
 
-    // Standard getters and setters
-    public Long getId() {
-        return id;
-    }
-
     public void setId(Long id) {
         this.id = id;
     }
 
-    public String getBookTitle() {
-        return bookTitle;
-    }
-
     public void setBookTitle(String bookTitle) {
         this.bookTitle = bookTitle;
-    }
-
-    public Integer getQuantity() {
-        return quantity;
     }
 
     public void setQuantity(Integer quantity) {

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BookService/BookService.iml" filepath="$PROJECT_DIR$/BookService/BookService.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-microservices.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-microservices.iml" />
     </modules>
   </component>

@@ -12,7 +12,7 @@ import javax.persistence.*;
 @Entity
 public class Order {
 
-    // Standard getters and setters
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -32,7 +32,7 @@ public class Order {
         this.quantity = quantity;
     }
 
-    // Constructor, equals, hashCode and toString methods...
+
 
     public Order() {
     }
@@ -42,6 +42,6 @@ public class Order {
         this.quantity = quantity;
     }
 
-    // Override equals and hashCode methods based on the business key, if required
+
 }
 

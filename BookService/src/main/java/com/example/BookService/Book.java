@@ -25,7 +25,7 @@ public class Book {
         this.isbn = isbn;
     }
 
-    // Getters and Setters
+
     public Long getId() {
         return id;
     }

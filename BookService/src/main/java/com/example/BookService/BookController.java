@@ -42,6 +42,6 @@ public class BookController {
         return ResponseEntity.ok().build();
     }
 
-    // Add any other necessary endpoints for CRUD operations
+
 }
 
